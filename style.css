@@ -2,7 +2,7 @@
 /* Ben Zager */
 
 
-body {
+body { /* define rules for entire page */
 	font-family: Rockwell, serif;
 	color: black;
 	background-color: #5F9EA0;
@@ -16,7 +16,7 @@ nav ul {
 	list-style-type: none;
 	margin: 0;
     padding: 0;
-	width: 4in;
+	width: 3.6in;
 	overflow: hidden;
 	margin-right: auto;
     margin-left: auto;
@@ -36,6 +36,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+	background-color: rgb(180, 50, 10);
+}
+
 img {
 	border-style: solid;
 	border-color: black;
@@ -43,16 +47,36 @@ img {
 	margin: auto;
 }
 
-.bio {
+#bio {
 	display: block;	
 	align: center;
 	background-color: white;
-	max-width: 4.2in;
+	border: solid black 2px;
+	max-width: 4.5in;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 15px;
+	padding: 10px;
 	line-height: 20px;
 	word-spacing: 3px;
 }
+
+#resume {
+	display: block;
+	background-color: white;
+	border: solid black 2px;
+	max-width: 8in; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding: 10px;
+}
+#ed ul { /* remove bullets from education in resume */
+	list-style-type: none;
+}
+
+.job { /* italicize job titles */
+	font-style: italic;
+}
+
 
 
