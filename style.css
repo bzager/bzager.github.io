@@ -1,8 +1,57 @@
-
+/* style.css */
+/* Ben Zager */
 
 
 body {
 	font-family: Georgia, "Times New Roman", serif;
-	font-size: 20;
-	background-color: blue;
+	color: black;
+	background-color: rgb(200, 202, 185);
 }
+
+h1 {
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+	width: 4in;
+	overflow: hidden;
+	margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(130, 0, 30);
+    
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+img {
+	border-style: solid;
+	border-color: black;
+	display: block;
+	margin: auto;
+}
+
+.bio {
+	display: block;	
+	align: center;
+	background-color: white;
+	max-width: 4in;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	
+}
+
+
