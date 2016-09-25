@@ -3,9 +3,9 @@
 
 
 body {
-	font-family: Georgia, "Times New Roman", serif;
+	font-family: Rockwell, serif;
 	color: black;
-	background-color: rgb(200, 202, 185);
+	background-color: #5F9EA0;
 }
 
 h1 {
@@ -47,11 +47,12 @@ img {
 	display: block;	
 	align: center;
 	background-color: white;
-	max-width: 4in;
+	max-width: 4.2in;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 15px;
-	
+	line-height: 20px;
+	word-spacing: 3px;
 }
 
 
