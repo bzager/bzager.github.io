@@ -1,5 +1,7 @@
 # bzager.github.io
 
+Assignment 1 for Comp 20
+
 All assignment specifications have been completed. There are four
 files: index.html, bio.html, resume.html, and style.css.
 
